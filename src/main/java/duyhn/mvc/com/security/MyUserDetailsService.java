@@ -38,6 +38,7 @@ public class MyUserDetailsService implements UserDetailsService {
 			authorities.add(authority);
 		}
 		MyUserDetails userDetail = new MyUserDetails(userName, user.getPassword(), authorities);  
+		
 		return userDetail;
 	}
 
