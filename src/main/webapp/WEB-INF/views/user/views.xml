@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="contact-create" extends="mainTemplate" >
+     	<put-attribute name="body" value="/WEB-INF/views/user/contact/create.jsp" ></put-attribute>
+   </definition> 
+   <definition name="register" extends="mainTemplate" >
+     	<put-attribute name="body" value="/WEB-INF/views/user/profile/register.jsp" ></put-attribute>
+   </definition> 
+   <definition name="login" extends="mainTemplate" >
+     	<put-attribute name="body" value="/WEB-INF/views/user/profile/login.jsp" ></put-attribute>
+   </definition> 
+</tiles-definitions>  
