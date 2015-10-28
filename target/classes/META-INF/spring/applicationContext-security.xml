@@ -18,8 +18,8 @@
 			access="hasRole('ROLE_ADMIN')" />
 		<security:form-login login-page="/user/login"
 			authentication-failure-url="/user/login?error=true" />
-		<security:logout logout-url="/user/logout"
-			logout-success-url="/user/login" />
+		<security:logout logout-url="/j_spring_security_logout"
+		logout-success-url="/user/login" />
 		<security:remember-me key="remember-codersontrang" />
 	</security:http>
 	<security:authentication-manager>
